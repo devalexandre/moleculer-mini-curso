@@ -20,6 +20,8 @@ module.exports = {
 
         aliases: {
           "GET food": "food.get",
+          "GET food/filter": "food.filter",
+          "GET food/categories": "food.categories"
         },
 
         // Enable/disable logging
