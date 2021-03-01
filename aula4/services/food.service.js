@@ -7,7 +7,7 @@ module.exports = {
   actions: {
     async get() {
       const [ foods  , categories] = await Promise.all([this.getFood(), this.getCategories()])
-      
+
       return foods.map(food =>({
         id: food.id,
         description: food.description,
